@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var A=[24,53,78,91,12];
+        document.write("<strong>Array items: 24,53,78,91,12</strong>");
+        var largestNum;
+        largestNum=A[0];
+        for (var i=0; i<A.length; i++) {
+            if (A[i]>largestNum) {
+                largestNum=A[i];
+            }
+        }
+        document.write("<br><strong> The largest number is: </strong>" + "<strong>" + largestNum + "</strong>");
+    </script>
+</body>
+</html>

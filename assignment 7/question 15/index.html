@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+      var  password=[];
+ password=prompt("enter a password:");
+if (password[0]>=0) {
+    alert("password can not begin with a number");
+    password=prompt("please enter a valid password:");
+}
+ else if (password.length<6) {
+    alert("password must be atleast 6 characters long");
+    password=prompt("please enter a valid password:");
+}
+else {
+    alert("password accepted");
+}
+    </script>
+</body>
+</html>

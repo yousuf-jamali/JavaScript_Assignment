@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var A=["cake","apple pie","cookie","chips","patties"];
+        var search=prompt("Welcome to ABC Bakery, What do you want to order sir/ma'am?");
+        var found=false;
+        for (var i=0; i<A.length; i++) {
+            if (search==A[i]) {
+                found=true;
+                alert(A[i] + " is " +  " available at index " + [i] + " in our bakery");
+                break;
+            }
+        }
+        if (found==false) {
+            alert("We are sorry. " + search + " is not available in our bakery ");
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var input=[];
+        input=prompt("enter any string:");
+        var firstChar=[];
+        var otherChars=[];
+         firstChar=input.slice(0,1);
+         otherChars=input.slice(1);
+        firstChar=firstChar.toUpperCase();
+        otherChars=otherChars.toLowerCase();
+        var result=firstChar+otherChars;
+        document.write("User input: " + input);
+        document.write("<br> Tile case: " + result);
+    </script>
+</body>
+</html>
